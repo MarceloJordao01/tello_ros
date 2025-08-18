@@ -119,7 +119,7 @@
     </state>
     <gui fullscreen='0'>
       <camera name='user_camera'>
-        <pose>-1.95161 -11.0359 8.84008 0 0.535122 1.62071</pose>
+        <pose>-15.2448 1.36408 10.2074 -0 0.515122 -0.01129</pose>
         <view_controller>orbit</view_controller>
         <projection_type>perspective</projection_type>
       </camera>
@@ -129,7 +129,7 @@
         <static>true</static>
         <uri>model://arena_spawn</uri>
       </include>
-      <pose>-4.219604 2.588462 0 0 0 0</pose>
+      <pose>2.561568 4.228781 0 0 0 -1.570000</pose>
     </model>
 
     <plugin name="gazebo_ros_state" filename="libgazebo_ros_state.so"/>

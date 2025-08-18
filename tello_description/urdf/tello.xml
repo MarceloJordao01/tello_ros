@@ -107,6 +107,8 @@
             <parameter name="use_sim_time" type="bool">1</parameter>
             <link_name>base_link${suffix}</link_name>
             <center_of_mass>0 0 0</center_of_mass>
+            <parameter name="debug" type="bool">false</parameter>
+            <parameter name="debug_go_rate_hz" type="double">2.0</parameter>
         </plugin>
     </gazebo>
 
