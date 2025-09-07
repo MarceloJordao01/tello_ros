@@ -11,20 +11,9 @@ def generate_launch_description():
     world_path = os.path.join(get_package_share_directory('tello_gazebo'), 'worlds', 'arena_world.world')
     urdf_path  = os.path.join(get_package_share_directory('tello_description'), 'urdf', 'tello_1.urdf')
 
-    # (OPCIONAL) aponte caminhos locais se quiser:
-    # arena_models = os.path.expanduser('~/arena_worlds/arena_models')
-    # arena_worlds = os.path.expanduser('~/arena_worlds/worlds')
-
     return LaunchDescription([
         # 1) DESATIVAR banco de modelos online
         SetEnvironmentVariable(name='GAZEBO_MODEL_DATABASE_URI', value=''),
-
-        # 2) (OPCIONAL) garantir que seus models/worlds locais estejam no path
-        # SetEnvironmentVariable(name='GAZEBO_MODEL_PATH',
-        #     value=f"{os.environ.get('GAZEBO_MODEL_PATH','')}:{arena_models}"),
-        # SetEnvironmentVariable(name='GAZEBO_RESOURCE_PATH',
-        #     value=f"{os.environ.get('GAZEBO_RESOURCE_PATH','')}:{arena_worlds}"),
-
         # Gazebo Classic + gazebo_ros
         ExecuteProcess(cmd=[
             'gazebo',

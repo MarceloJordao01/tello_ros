@@ -74,6 +74,7 @@
     </link>
 
     <!-- Camera link -->
+    <!-- Camera link (CÂMERA EXISTENTE — mantém /image_raw) -->
     <link name="camera_link${suffix}">
         <visual>
             <origin xyz="0 0 0"/>

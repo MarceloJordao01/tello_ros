@@ -119,6 +119,8 @@ namespace tello_gazebo
 
     // Tempos de simulação
     gazebo::common::Time update_time_;
+
+    // 10Hz timer
     gazebo::common::Time ten_hz_time_;
 
     // Controladores de velocidade (frame do corpo)
