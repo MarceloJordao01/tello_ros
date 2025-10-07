@@ -88,6 +88,8 @@
         </surface>
       </collision>
     </link>
+
+    <!-- high base left-->
     <link name='link_4'>
       <pose>-3.0 -3.8 0.11 0 0 0</pose>
       <inertial>
@@ -174,6 +176,8 @@
         </surface>
       </collision>
     </link>
+
+    <!-- high base right -->
     <link name='link_5'>
       <pose>-3.0 -3.8 0.11 0 0 0</pose>
       <inertial>

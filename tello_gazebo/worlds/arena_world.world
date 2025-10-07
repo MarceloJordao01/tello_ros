@@ -127,7 +127,7 @@
     <model name="arena">
       <include>
         <static>true</static>
-        <uri>model://arena_spawn</uri>
+        <uri>model://arena_spawn_1</uri>
       </include>
       <pose>2.561568 4.228781 0 0 0 -1.570000</pose>
     </model>
